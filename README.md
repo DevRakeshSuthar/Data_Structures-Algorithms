@@ -113,7 +113,6 @@ SYNTAX:
 
   Inside all of our instance methods and constructor, the keyword `this` refers to the object created from that class (also known as an   instance)
 
- - consider
 
 - Classes are blueprints that when created make objects known as instances
 - Classes are created with the new keyword
