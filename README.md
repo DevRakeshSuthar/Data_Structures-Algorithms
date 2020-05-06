@@ -19,3 +19,13 @@ Use a tree!
 - Need to write a scheduler?
 Use a binary heap!
 
+
+# ES2015
+CLASS link : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+- What is a class?
+A blueprint for creating objects with pre-defined properties and methods.
+
+- Why do we need to learn this?
+We're going to implement data structures as classes!
+
