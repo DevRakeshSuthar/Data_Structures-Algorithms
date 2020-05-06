@@ -194,3 +194,66 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 - If the index is less than zero or greater than or equal to the length of the list, return null.
 - Loop through the list until you reach the index and return the node at that specific index.
 
+#
+
+- **Set** : Changing the value of a node based on it's position in the Linked List.
+
+- This function should accept a value and an index.
+- Use your get function to find the specific node.
+- If the node is not found, return false.
+- If the node is found, set the value of that node to be the value passed to the function and return true.
+
+#
+
+- **Insert** : Adding a node to the Linked List at a specific position.
+
+- If the index is less than zero or greater than the length, return false.
+- If the index is the same as the length, push a new node to the end of the list.
+- If the index is 0, unshift a new node to the start of the list.
+- Otherwise, using the get method, access the node at the index - 1.
+- Set the next property on that node to be the new node.
+- Set the next property on the new node to be the previous next.
+- Increment the length.
+- Return true.
+
+#
+
+- **Remove** : Removing a node from the Linked List at a specific position.
+
+- If the index is less than zero or greater than the length, return undefined.
+- If the index is the same as the length-1, pop.
+- If the index is 0, shift.
+- Otherwise, using the get method, access the node at the index - 1.
+- Set the next property on that node to be the next of the next node.
+- Decrement the length.
+- Return the value of the node removed.
+
+#
+
+- **REVERSE** : Reversing the Linked List in place!
+
+- Swap the head and tail.
+- Create a variable called next.
+- Create a variable called prev.
+- Create a variable called node and initialize it to the head property.
+- Loop through the list.
+- Set next to be the next property on whatever node is.
+- Set the next property on the node to be whatever prev is.
+- Set prev to be the value of the node variable.
+- Set the node variable to be the value of the next variable.
+- Once you have finished looping, return the list.
+
+#
+
+**Big O of Singly Linked Lists**
+
+- **Insertion -   O(1)**
+- **Removal -   It depends.... O(1) or O(N)**
+- **Searching -   O(N)**
+- **Access -   O(N)**
+
+#
+
+- Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
+- Arrays contain a built in index whereas Linked Lists do not.
+- The idea of a list data structure that consists of nodes is the foundation for other data structures like Stacks and Queues.
