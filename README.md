@@ -8,16 +8,16 @@
 
 - Working with
 map/location data?
-Use a graph!
+***Use a graph!***
 
 - Need an ordered list with fast inserts/removals at the beginning and end?
-Use a linked list!
+***Use a linked list!***
 
 - Web scraping nested HTML?
-Use a tree!
+***Use a tree!***
 
 - Need to write a scheduler?
-Use a binary heap!
+***Use a binary heap!***
 
 
 # ES2015
@@ -29,7 +29,7 @@ A blueprint for creating objects with pre-defined properties and methods.
 - Why do we need to learn this?
 We're going to implement data structures as classes!
 
-- Class Keyword 
+- **Class Keyword** 
 
 SYNTAX:
   
@@ -40,7 +40,7 @@ SYNTAX:
             }
      }
      
- The method to create new objects must be called constructor.
+ The method to create new objects must be called **constructor.**
  The class keyword creates a constant, so you can not redefine it.
  Watch out for the syntax as well!
  
@@ -57,7 +57,7 @@ SYNTAX:
         let secondStudent = new Student("Blue", "Steele");
         
 
- - Instance Methods
+ - **Instance Methods**
 
         class Student {
             constructor(firstName, lastName){
@@ -73,7 +73,7 @@ SYNTAX:
 
         firstStudent.fullName() // "Colt Steele"
 
-- Class Methods
+- **Class Methods**
 
       class Student {
           constructor(firstName, lastName){
@@ -127,7 +127,7 @@ A data structure that contains a head, tail and length property.
 
 Linked Lists consist of nodes, and each node has a value and a pointer to another node or null.
 
- - Comparisons with Arrays
+ - Comparisons with **Arrays**
 
                       Lists 
 
@@ -143,7 +143,7 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 
 #
 
-- Pushing
+- **Pushing**
          : Adding a new node to the end of the Linked List!
 
 - This function should accept a value.
@@ -155,7 +155,7 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 
 #
 
-- Popping : Removing a node from the end of the Linked List!
+- **Popping** : Removing a node from the end of the Linked List!
 
 - If there are no nodes in the list, return undefined
 - Loop through the list until you reach the tail
@@ -166,7 +166,7 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 
 #
 
-- Shifting : Removing a new node from the beginning of the Linked List!
+- **Shifting** : Removing a new node from the beginning of the Linked List!
 
 - If there are no nodes, return undefined
 - Store the current head property in a variable
@@ -176,7 +176,7 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 
 # 
 
-- Unshifting : Adding a new node to the beginning of the Linked List!
+- **Unshifting** : Adding a new node to the beginning of the Linked List!
 
 - This function should accept a value
 - Create a new node using the value passed to the function
