@@ -141,6 +141,8 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
             - Insertion and deletion can be expensive
             - Can quickly be accessed at a specific index
 
+#
+
 - Pushing
          : Adding a new node to the end of the Linked List!
 
@@ -150,3 +152,14 @@ Linked Lists consist of nodes, and each node has a value and a pointer to anothe
 - Otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node.
 - Increment the length by one.
 - Return the linked list.
+
+#
+
+- Popping : Removing a node from the end of the Linked List!
+
+- If there are no nodes in the list, return undefined
+- Loop through the list until you reach the tail
+- Set the next property of the 2nd to last node to be null
+- Set the tail to be the 2nd to last node
+- Decrement the length of the list by 1
+- Return the value of the node removed
