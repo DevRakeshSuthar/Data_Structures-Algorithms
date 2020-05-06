@@ -29,3 +29,29 @@ A blueprint for creating objects with pre-defined properties and methods.
 - Why do we need to learn this?
 We're going to implement data structures as classes!
 
+- Class Keyword 
+
+SYNTAX:
+  
+    class Student {  
+           constructor(firstName, lastName){
+                   this.firstName = firstName;
+                   this.lastName = lastName;
+            }
+     }
+     
+ The method to create new objects must be called constructor.
+ The class keyword creates a constant, so you can not redefine it.
+ Watch out for the syntax as well!
+ 
+ - Creating objects from classes
+
+          class Student {
+            constructor(firstName, lastName){
+                this.firstName = firstName;
+                this.lastName = lastName;
+            }
+        }
+
+        let firstStudent = new Student("Colt", "Steele");
+        let secondStudent = new Student("Blue", "Steele");
